@@ -25,3 +25,11 @@ item = {
 let { water : {smallBag : { money : anyMoney2} } } = item;
 
 console.log(`anyMoney2 = ${anyMoney2}`)
+
+
+
+let field = 'Age'
+let harry = { age : 10 }
+let { [field.toLocaleLowerCase()]: harrysAge } = harry
+
+console.log(`harrysAge = ${harrysAge}`)
